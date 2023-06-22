@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <section id="Home">
+   <div class="logo"><a href="#Home"> PRAIZ<span class="mark">\</span>OKECHUKWU</a></div>
+    <div class="container">
+        <div class="introduction">
+          <h1> HELLO! <span class="iAm"> I'M </span> PRAISE </h1>
+        </div>
+        <div class="text"><p>welcome to my website!<br> I'm a multidisciplinary designer entuhsiast.</p></div>
+    </div>
+   <div id="sideNav" class="sideNav">
+      <nav>  
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#Featured-work">Featured Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>  
+   </div>
+    <div onclick="openNav()" id="Divicon" class="photo">
+      <img id="icon" src="images/menu.png">
+    </div>
+  </section>
+<!--main section ends-->
+
+<!--About Section Begins-->
+
+<section id="About">
+  <div class="ABout-container">
+     
+      <div class="writeUp">
+          <div class="About-Me">ABOUT ME</div>
+            <div class="main-content">
+              <p>Hello there! My name is Okechukwu Praise.N., and I am an experienced graphics designer with a passion for creating visually stunning designs. With over 4 years of professional experience, I have had the privilege to work with renowned brands such as SFS and Oolu, among many others.
+              Throughout my career, I have honed my skills in various design software, including CorelDRAW, Photoshop, Canva, and InDesign. These tools have enabled me to bring my creative visions to life and deliver exceptional results to my clients. I am constantly staying updated with the latest design trends and techniques to ensure that my work remains fresh, innovative, and impactful.
+              While I have a strong foundation in graphics design, I am always eager to expand my skill set. Currently, I am learning web development to broaden my expertise and offer more comprehensive design solutions. I believe that combining my design skills with web development knowledge will allow me to create seamless and engaging user experiences.
+              My approach to design is centered around understanding my clients' needs and translating their ideas into visually captivating designs. I take great pride in my ability to effectively communicate and collaborate with clients, ensuring that their vision is brought to life while maintaining the brand's identity and objectives.
+              I am a dedicated and detail-oriented professional who thrives on challenges and consistently delivers high-quality work. I strive to exceed expectations and provide exceptional design solutions that leave a lasting impression.
+              Thank you for taking the time to learn more about me. I am excited to bring my skills and creativity to new projects and make a positive impact with my designs. Let's work together to create something truly remarkable!</p>
+            </div>
+      
+      </div>
+
+      <div class="image">
+        <img src="images/img1.jpeg">
+      </div>
+  </div>
+</section>
+<!--The about section ends-->
+
+<section id="Resume">
+  <div class="cover-Resume">
+    <h1>RESUME</h1>
+    <div class="resume-button">
+      <a href="https://drive.google.com/file/d/1R1OIB3OuPj_a6w-NxGvnoGu3FhpgRrwW/view?usp=sharing"><span></span>Download CV </a>
+    </div>
+  </div>
+</section>
+<!--The resume section ends-->
+
+
+<section id="Featured-work">
+  <div class="header"><h1>FEATURED WORK</h1></div>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="projects done/Ghest speaker.jpg" style="width:100%">
+    <div class="text">Flyer Design</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="projects done/sfs social media post.jpeg" style="width:100%">
+    <div class="text">Flyer Design</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="projects done/Oolu fuel.jpeg" style="width:100%">
+    <div class="text">Flyer Design</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>  
+</section>
+
+<!--Contact section Begins-->
+
+<section id="contact">
+  <div class="contact-wrapper">
+    <div class="contact-div"> 
+      <h1>Contact</h1>
+      <a target="_blank" href="praiseokechukwu010@gmail.com">Send E-mail</a>
+      <br><p>08145346879</p>
+    </div> 
+  </div>
+</section>
+ <script src="hero.js"></script> 
+</body>
+</html>
